@@ -1,18 +1,8 @@
 import type { Metadata } from "next";
-import { Outfit, Ovo, Poppins } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import Navbar from "./components/Navbar";
-
-const outfit = Outfit({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
-
-const ovo = Ovo({
-  subsets: ["latin"],
-  weight: ["400"],
-});
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -31,9 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
-        className={`${poppins.className} ${outfit.className} ${ovo.className} antialiased`}
-      >
+      <body className={`${poppins.className} antialiased`}>
         <ThemeProvider>
           <Navbar />
           {children}

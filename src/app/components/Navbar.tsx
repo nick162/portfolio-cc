@@ -37,26 +37,12 @@ const Navbar = () => {
             animate={{ opacity: 1, y: 0 }}
             className="hidden md:flex space-x-6 bg-white px-6 py-2 rounded-full shadow-md"
           >
-            <Link href="/">
-              <p>Beranda</p>
-            </Link>
-            <Link href="#about">
-              <p>Tentang Saya</p>
-            </Link>
-
-            <Link href="#portfolio">
-              <p>Portfolio</p>
-            </Link>
-
-            <Link href="#experience">
-              <p>Experience</p>
-            </Link>
-            <Link href="#service">
-              <p>Services</p>
-            </Link>
-            <a href="#review">
-              <p>Review</p>
-            </a>
+            <Link href="/">Beranda</Link>
+            <Link href="#about">Tentang Saya</Link>
+            <Link href="#portfolio">Portfolio</Link>
+            <Link href="#experience">Experience</Link>
+            <Link href="#service">Services</Link>
+            Review
           </motion.ul>
         </div>
 
