@@ -16,10 +16,9 @@ import { MenuIcon } from "lucide-react";
 import { ToggleDarkMode } from "./ToggleDarkMode";
 
 const Navbar = () => {
-  const pathname = usePathname();
   return (
     <div className="fixed top-0 right-0 w-11/12 z-10">
-      <nav className="flex justify-between items-center ">
+      <nav className="flex justify-between items-center navbar">
         {/* Logo */}
         <div className="mt-4">
           <Image
@@ -69,6 +68,7 @@ const Navbar = () => {
         <div>
           <Link href="#contact">
             <Button
+              name="contact"
               variant="outline"
               className="border-purple bg-purple-500 text-purple md:block hidden"
             >

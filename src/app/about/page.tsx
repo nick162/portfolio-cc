@@ -23,7 +23,7 @@ export default function About() {
           Introduction
         </h2>
         <h3 className="text-4xl font-bold mt-2">About me</h3>
-        <p className="text-gray-600 mt-4 dark:text-white">
+        <p className="text-gray-800 mt-4 dark:text-white">
           I am an experienced Frontend Developer with over a decade of
           professional expertise in the field. Throughout my career, I have had
           the privilege of collaborating with prestigious organizations,

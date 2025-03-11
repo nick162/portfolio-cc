@@ -4,6 +4,7 @@ import { useState } from "react";
 import { ChevronDown, ChevronUp, ExternalLink } from "lucide-react";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 const projects = [
   {
@@ -68,10 +69,12 @@ function PortfolioCard({ project }: any) {
 
   return (
     <Card className="overflow-hidden shadow-lg">
-      <img
+      <Image
         src={project.image}
         alt={project.title}
-        className="w-full h-52 object-cover"
+        className="object-cover"
+        width={100}
+        height={52}
       />
       <CardHeader>
         <CardTitle>{project.title}</CardTitle>

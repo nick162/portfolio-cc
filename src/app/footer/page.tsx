@@ -9,17 +9,26 @@ const Footer = () => {
     >
       <div className="button-connect mb-5">
         <Link href={"http://github.com"} className="mr-2">
-          <Button className="bg-black rounded-lg w-[80px] h-[40px] text-white font-semibold">
+          <Button
+            name="github"
+            className="bg-black rounded-lg w-[80px] h-[40px] text-white font-semibold"
+          >
             GitHub
           </Button>
         </Link>
         <Link href={"http://linkedin.com"}>
-          <Button className="bg-blue-500 rounded-lg w-[80px] h-[40px] text-white font-semibold">
+          <Button
+            name="linkedin"
+            className="bg-blue-600 rounded-lg w-[80px] h-[40px] text-white font-semibold"
+          >
             LinkedIn
           </Button>
         </Link>
         <Link href={"http://dribble.com"} className="ml-2">
-          <Button className="bg-purple-400 rounded-lg w-[80px] h-[40px] text-white font-semibold">
+          <Button
+            name="dribble"
+            className="bg-purple-400 rounded-lg w-[80px] h-[40px] text-white font-semibold"
+          >
             Dribble
           </Button>
         </Link>

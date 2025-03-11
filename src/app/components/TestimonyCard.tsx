@@ -6,6 +6,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Star } from "lucide-react";
+import Image from "next/image";
 
 const testimonials = [
   {
@@ -68,10 +69,12 @@ export default function Testimony() {
         {testimonials.map((testimonial) => (
           <SwiperSlide key={testimonial.id}>
             <div className="bg-neutral-300 rounded-xl shadow-lg p-6 text-center flex flex-col items-center">
-              <img
+              <Image
                 src={testimonial.image}
                 alt={testimonial.name}
-                className="w-16 h-16 rounded-full border-2 border-gray-200 mb-4"
+                className="rounded-full border-2 border-gray-200 mb-4"
+                width={16}
+                height={16}
               />
               <h3 className="text-lg font-semibold">{testimonial.name}</h3>
               <p className="text-gray-600 text-sm mt-2">
