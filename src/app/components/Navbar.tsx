@@ -17,7 +17,7 @@ import { ToggleDarkMode } from "./ToggleDarkMode";
 
 const Navbar = () => {
   return (
-    <div className="fixed top-0 right-0 w-11/12 z-10">
+    <div className="container mx-auto fixed top-0 left-0 right-0 z-10">
       <nav className="flex justify-between items-center navbar">
         {/* Logo */}
         <div className="mt-4">
@@ -64,7 +64,7 @@ const Navbar = () => {
         </div>
         <DropdownMenu>
           <DropdownMenuTrigger className="block md:hidden">
-            <MenuIcon />
+            <MenuIcon arial-label="navigaion-menu" />
           </DropdownMenuTrigger>
           <DropdownMenuContent>
             <DropdownMenuLabel>Menu</DropdownMenuLabel>
@@ -88,7 +88,7 @@ const Navbar = () => {
               <Link href="#review">Review </Link>
             </DropdownMenuItem>
             <DropdownMenuItem>
-              <Link href="#contact">Contact</Link>
+              <Link href="#contact">Contact Us</Link>
             </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>

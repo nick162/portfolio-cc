@@ -25,12 +25,9 @@ const Footer = () => {
           </Button>
         </Link>
         <Link href={"http://dribble.com"} className="ml-2">
-          <Button
-            name="dribble"
-            className="bg-purple-400 rounded-lg w-[80px] h-[40px] text-white font-semibold"
-          >
+          <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm text-white bg-purple-600">
             Dribble
-          </Button>
+          </button>
         </Link>
       </div>
       <div className="flex flex-col items-center">

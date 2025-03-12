@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="about py-16 px-6 md:px-20 lg:px-32 flex flex-col md:flex-row items-center gap-10 dark:text-white"
+      className="about container mx-auto py-16 px-6 md:px-20 lg:px-32 flex flex-col md:flex-row items-center gap-10 dark:text-white"
     >
       <div className="flex-shrink-0">
         <Image
