@@ -42,7 +42,7 @@ const Navbar = () => {
             <Link href="#portfolio">Portfolio</Link>
             <Link href="#experience">Experience</Link>
             <Link href="#service">Services</Link>
-            Review
+            <Link href="#review">Review</Link>
           </motion.ul>
         </div>
 
