@@ -72,9 +72,9 @@ export default function Testimony() {
               <Image
                 src={testimonial.image}
                 alt={testimonial.name}
-                className="rounded-full border-2 border-gray-200 mb-4"
-                width={16}
-                height={16}
+                className="rounded-lg border-2 border-gray-200 mb-4"
+                width={80}
+                height={100}
               />
               <h3 className="text-lg font-semibold">{testimonial.name}</h3>
               <p className="text-gray-600 text-sm mt-2">
